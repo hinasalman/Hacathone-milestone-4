@@ -1,0 +1,115 @@
+/* Base Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #d1d9e6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #4a90e2;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #34495e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Resume Display Styling */
+#resumeDisplay {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 16px;
+}
+
+#resumeDisplay h2 {
+    color: #4a90e2;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#resumeDisplay h3 {
+    color: #34495e;
+    font-size: 18px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #d1d9e6;
+}
+
+#resumeDisplay p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
